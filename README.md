@@ -20,4 +20,4 @@ La ejecucion de `make` va a realizar los siguientes pasos:
 TDB
 
 ## Demo
-[![asciicast](https://asciinema.org/a/49jms7rs12c7u6yohx2lopy62.png)](https://asciinema.org/a/49jms7rs12c7u6yohx2lopy62)
+[![asciicast](https://asciinema.org/a/49jms7rs12c7u6yohx2lopy62.png)](https://asciinema.org/a/49jms7rs12c7u6yohx2lopy62?autoplay=1)
