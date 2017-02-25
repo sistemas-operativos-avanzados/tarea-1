@@ -2,11 +2,11 @@ Tarea 1: Rastreador de _System Calls_
 =====================================
 
 ## Tabla de contenidos
-* [Descripción](#descripci%C3%B3n)
-* [Construccion](#construcci%C3%B3n)
-* [Ejecucion](#ejecuci%C3%B3n)
-* * [Ejemplo 1: llamando a `cal`](#)
-* * [Ejemplo 2: llamando a `ls -lath`](#)
+* [Descripción](#descripción)
+* [Construccion](#construcción)
+* [Ejecucion](#ejecución)
+* * [Ejemplo 1: llamando a `cal`](#ejemplo-1-llamando-al-programa-cal)
+* * [Ejemplo 2: llamando a `ls -lath`](ejemplo-2-llamado-a-programa-ls-con-las-opciones--laht)
 
 
 ## Descripción
@@ -17,6 +17,7 @@ Opciones:
 * `-V` "modo interactivo". Se debe de presionar cualquier teclas antes de obtener todas las llamadas al sistema de un programa.
 
 ## Construcción
+[Volver arriba](#tabla-de-contenidos)  
 
 ```bash
 > make
@@ -27,12 +28,16 @@ La ejecución de `make` va a realizar los siguientes pasos:
 
 
 ## Ejecución
+[Volver arriba](#tabla-de-contenidos)  
+
 ```bash
 > target/rastreador [opciones] Prog [opciones de Prog]
 
 ```
 
 ### Ejemplo 1: llamando al programa `cal`.
+[Volver arriba](#tabla-de-contenidos)  
+
 ```bash
 > target/rastreador -v cal 
 
@@ -68,6 +73,7 @@ Su Mo Tu We Th Fr Sa
 ```
 
 ### Ejemplo 2: llamado a programa `ls` con las opciones `-laht`
+[Volver arriba](#tabla-de-contenidos)  
  
 ```bash
 target/rastreador -v ls -laht
@@ -120,4 +126,5 @@ drwxr-xr-x 1 vagrant vagrant  238 Feb 16 00:18 cmake-build-debug
 ``` 
 
 ## Demo
+[Volver arriba](#tabla-de-contenidos)  
 [![asciicast](https://asciinema.org/a/49jms7rs12c7u6yohx2lopy62.png)](https://asciinema.org/a/49jms7rs12c7u6yohx2lopy62?autoplay=1)
