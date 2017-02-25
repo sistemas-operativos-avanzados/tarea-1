@@ -3,15 +3,16 @@ Tarea 1: Rastreador de _System Calls_
 
 ## Tabla de contenidos
 * [Descripción](#descripción)
-* [Construccion](#construcción)
-* [Ejecucion](#ejecución)
-* * [Ejemplo 1: llamando a `cal`](#ejemplo-1-llamando-al-programa-cal)
-* * [Ejemplo 2: llamando a `ls -lath`](ejemplo-2-llamado-a-programa-ls-con-las-opciones--laht)
+* [Construcción](#construcción)
+* [Ejecución](#ejecución)
+  * [Ejemplo 1: llamando a `cal`](#ejemplo-1-llamando-al-programa-cal)
+  * [Ejemplo 2: llamando a `ls -lath`](ejemplo-2-llamado-a-programa-ls-con-las-opciones--laht)
+* [Bibliografía](#bibliografía)
 
 
 ## Descripción
 [Volver arriba](#tabla-de-contenidos)  
-Programa que rastrea todas las llamadas al sistema de un programa y las presenta en una tabla acumulada en el _standar output_.
+Programa que rastrea todas las llamadas al sistema de un programa y las presenta en una tabla acumulada en el _standard output_.
 Opciones:
 * `-v` muestra todos las llamadas al sistema de un programa
 * `-V` "modo interactivo". Se debe de presionar cualquier teclas antes de obtener todas las llamadas al sistema de un programa.
@@ -22,8 +23,9 @@ Opciones:
 ```bash
 > make
 ```
-La ejecución de `make` va a realizar los siguientes pasos:
-1. Compilacion de archivos fuente bajo la carpet `src/`
+
+La ejecución de `make` va a realizar los siguientes pasos:  
+1. Compilacion de archivos fuente bajo la carpet `src/`  
 2. Crea la carpeta `target/` en donde se van a dejar los archivos resultantes del proceso de compilacion (objeto, ejecutable)
 
 
@@ -128,3 +130,12 @@ drwxr-xr-x 1 vagrant vagrant  238 Feb 16 00:18 cmake-build-debug
 ## Demo
 [Volver arriba](#tabla-de-contenidos)  
 [![asciicast](https://asciinema.org/a/49jms7rs12c7u6yohx2lopy62.png)](https://asciinema.org/a/49jms7rs12c7u6yohx2lopy62?autoplay=1)
+
+## Bibliografía
+[Volver arriba](#tabla-de-contenidos)   
+
+Griffiths Dawn, Griffiths David. _**Head First C**_.  O'Reilly Media, Inc. Apéndice A: _Tracing System Calls_. 2012.   
+
+Kerrisk Michaeil, _**The Linux Programming Interface**_. No Starch Press, 2010
+
+Matthew Neil, Stones Richard. _**Beginning Linux Programming**_. Wiley Publishing, Inc. Cuarta Edidión. Capítulo 5: _Terminals_. 2008.
