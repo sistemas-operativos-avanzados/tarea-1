@@ -1,6 +1,8 @@
 Tarea 1: Rastreador de _System Calls_
 =====================================
 
+https://travis-ci.org/sistemas-operativos-avanzados/tarea-1.svg?branch=master
+
 ## Tabla de contenidos
 * [Descripción](#descripción)
 * [Construcción](#construcción)
